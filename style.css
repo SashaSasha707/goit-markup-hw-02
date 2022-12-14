@@ -1,0 +1,160 @@
+/*робимо основні кольори*/
+:root {
+ --primary-brand-color: #4D5AE5;
+ --title-text-color: #2E2F42;
+ --success-color:#31D0AA;
+ --primary-text-color: #434455;
+ --subtle-text-color: #8E8F99;
+ --accent-color: #E7E9FC;
+ --light-color:#F4F4FD;
+};
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+/*прибираємо зі списків крапочки*/
+ul{
+    list-style: none;
+}
+
+/*роблю оформлення header*/
+.header{
+    background-color: #FFFFFF;
+    color: var (--title-text-color);
+}
+
+.logo {
+    color: var(--title-text-color);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.web-logo {
+    color: var(--primary-brand-color);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none
+}
+
+.header-link {
+    color: var(--title-text-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: var(--primary-text-color);
+    font-weight: 600;
+}
+
+.header-link:focus {
+    color: var(--primary-brand-color);
+    font-weight: 600;
+}
+
+.contacts {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.cotacts:hover {
+    color: var(--primary-brand-color);
+}
+
+/*оформлення першої секції з заголовками*/
+.header-title {
+    background-color: var(--title-text-color);
+}
+
+.main-title {
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 60px;
+}
+
+.main-button {
+    background-color: var(--primary-brand-color);
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 19px;
+    border: none;
+}
+
+.main-button:focus {
+    background-color: #404BBF;
+}
+/*офорлюю частину з картинками*/
+.offer {
+}
+/*частина, де прописуються, що роблять*/
+.h2-title {
+    color: var(--title-text-color);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.h3-title {
+    color: var(--title-text-color);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.list {
+    color: var(--primary-text-color);
+    font-weight: 400;
+}
+/*частина команди*/
+.team {
+    background-color: var(--light-color);
+}
+/*футер*/
+.footer {
+    background-color: var(--title-text-color);
+}
+
+.logo-footer {
+    color: var(--light-color);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-emphasis: none;
+}
+
+.footer-text {
+    color: var(--accent-color);
+    font-weight: 400;
+}
+
+/*сторінка портфоліо*/
+.portfolio-btn {
+    background-color: var(--primary-brand-color);
+    color: #FFFFFF;
+    border: none;
+    font-weight: 600;
+}
+
+.portfolio-btn:
+
+
+
+
+
+
+
+
+
+
